@@ -1,0 +1,77 @@
+[01-Jan-2025 00:59:19 Asia/Jakarta] PHP Warning:  require(/home/bern7225/posLaravel/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/posLaravel/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 00:59:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/posLaravel/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/posLaravel/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/posLaravel/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/posLaravel/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/posLaravel/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 01:00:10 Asia/Jakarta] PHP Warning:  require(/home/bern7225/posLaravel/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/posLaravel/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 01:00:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/posLaravel/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/posLaravel/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/posLaravel/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/posLaravel/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/posLaravel/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 01:02:52 Asia/Jakarta] PHP Warning:  require(/home/bern7225/posLaravel/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/posLaravel/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 01:02:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/posLaravel/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/posLaravel/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/posLaravel/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/posLaravel/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/posLaravel/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 06:11:23 Asia/Jakarta] PHP Warning:  require(/home/bern7225/posLaravel/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/posLaravel/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 06:11:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/posLaravel/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/posLaravel/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/posLaravel/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/posLaravel/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/posLaravel/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 06:11:31 Asia/Jakarta] PHP Warning:  require(/home/bern7225/posLaravel/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/posLaravel/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 06:11:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/posLaravel/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/posLaravel/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/posLaravel/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/posLaravel/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/posLaravel/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 09:13:02 Asia/Jakarta] PHP Warning:  require(/home/bern7225/posLaravel/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/posLaravel/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 09:13:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/posLaravel/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/posLaravel/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/posLaravel/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/posLaravel/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/posLaravel/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 10:23:37 Asia/Jakarta] PHP Warning:  require(/home/bern7225/posLaravel/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/posLaravel/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 10:23:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/posLaravel/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/posLaravel/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/posLaravel/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/posLaravel/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/posLaravel/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 10:57:42 Asia/Jakarta] PHP Warning:  require(/home/bern7225/posLaravel/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/posLaravel/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 10:57:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/posLaravel/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/posLaravel/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/posLaravel/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/posLaravel/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/posLaravel/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 12:30:34 Asia/Jakarta] PHP Warning:  require(/home/bern7225/posLaravel/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/posLaravel/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 12:30:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/posLaravel/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/posLaravel/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/posLaravel/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/posLaravel/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/posLaravel/vendor/composer/autoload_real.php on line 41
+[13-Feb-2025 14:48:13 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/backup/../../posLaravel/vendor/autoload.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/backup/index.php on line 13
+[13-Feb-2025 14:48:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/backup/../../posLaravel/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/public_html/pos.berkahgajahabadi.com/backup/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/backup/index.php on line 13

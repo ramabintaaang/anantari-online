@@ -1,0 +1,262 @@
+[01-Jan-2025 12:35:57 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 12:35:57 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 12:35:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 12:35:59 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 12:35:59 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 12:35:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 12:36:08 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 12:36:08 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 12:36:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 12:36:10 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 12:36:10 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 12:36:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 12:36:12 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 12:36:12 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 12:36:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 12:36:50 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 12:36:50 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 12:36:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 12:37:26 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 12:37:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 12:39:12 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 12:39:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 13:14:50 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 13:14:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 13:14:51 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 13:14:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 13:14:53 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 13:14:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 13:33:07 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 13:33:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 16:10:20 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 16:10:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 16:10:21 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 16:10:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 16:10:29 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 16:10:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 18:14:48 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 18:14:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 21:37:09 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 21:37:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 21:37:10 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 21:37:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 21:37:11 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 21:37:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 23:06:19 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 23:06:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 23:06:27 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 23:06:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 23:06:29 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 23:06:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 23:06:30 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 23:06:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 23:06:31 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 23:06:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 23:06:36 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 23:06:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 23:06:49 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[01-Jan-2025 23:06:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[02-Jan-2025 08:51:40 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[02-Jan-2025 08:51:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[02-Jan-2025 08:51:42 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[02-Jan-2025 08:51:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[02-Jan-2025 09:31:06 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[02-Jan-2025 09:31:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[02-Jan-2025 09:37:15 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[02-Jan-2025 09:37:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[02-Jan-2025 09:54:34 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[02-Jan-2025 09:54:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[02-Jan-2025 10:00:57 Asia/Jakarta] PHP Warning:  require(/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php): Failed to open stream: No such file or directory in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
+[02-Jan-2025 10:00:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/../../app/http/Helpers/Helper.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php(45): {closure}('cbe83960ed117a6...', '/home/bern7225/...')
+#1 /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/autoload.php(25): ComposerAutoloaderInit7e8c3c14ff33b199b4a0838993eb8423::getLoader()
+#2 /home/bern7225/public_html/pos.berkahgajahabadi.com/public/index.php(13): require('/home/bern7225/...')
+#3 {main}
+  thrown in /home/bern7225/public_html/pos.berkahgajahabadi.com/vendor/composer/autoload_real.php on line 41
