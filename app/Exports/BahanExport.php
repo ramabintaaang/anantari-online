@@ -287,6 +287,48 @@ $transaksiStockOpname = DB::table('stock_barang as a')
     ->whereRaw("LEFT(a.sbparent, 3) = 'PMO'")
     ->whereBetween(DB::raw('DATE(pmbd.created_at)'), [$startDate, $endDate]);
 
+ // Query untuk transaksi Stock Opname BAHAN OLAH
+$transaksiStockOpnameOlah = DB::table('stock_barang as a')
+    ->join('bahan_olah as b', 'b.bhoid', '=', 'a.sbbahan')
+    ->join('stock_opnamed as sopd', 'sopd.sopdid', '=', 'a.sbparent')
+    ->join('stock_opname as sop', 'sop.sopid', '=', 'sopd.sopdparent')
+    ->select(
+        'a.sbid',
+        'b.bhonama',
+        DB::raw("CONCAT('Stock Opname Olah-', sop.sopnama) AS keterangan"),
+        'a.sbjenis',
+        'a.sbmasuk',
+        'a.sbkeluar',
+        'a.sbadjust',
+        'a.sbsaldo',
+        DB::raw("DATE(sop.created_at) AS tgl"), // Mengambil hanya tanggal
+        DB::raw("'' AS sumber")
+    )
+    ->whereIn('a.sbbahan', $bahan)
+    ->where('a.sbgudang', $gudangz)
+    ->whereRaw("LEFT(a.sbparent, 3) = 'SOP'")
+    ->whereBetween(DB::raw('DATE(sop.soptgl)'), [$startDate, $endDate]);
+    
+    $transaksiPembuatanBahanOlah = DB::table('stock_barang as a')
+    ->join('bahan_olah as b', 'b.bhoid', '=', 'a.sbbahan')
+    ->join('pembeliand as pmbd', 'pmbd.pmbdid', '=', 'a.sbparent')
+    ->select(
+        'a.sbid',
+        'b.bhonama',
+        DB::raw("CONCAT('Pembuatan bahan Olah - ', b.bhonama) AS keterangan"),
+        'a.sbjenis',
+        'a.sbmasuk',
+        'a.sbkeluar',
+        'a.sbadjust',
+        'a.sbsaldo',
+        DB::raw("DATE(pmbd.created_at) AS tgl"), // Mengambil hanya tanggal
+        DB::raw("'' AS sumber")
+    )
+    ->whereIn('a.sbbahan', $bahan)
+    ->where('a.sbgudang', $gudangz)
+    ->whereRaw("LEFT(a.sbparent, 3) = 'PMO'")
+    ->whereBetween(DB::raw('DATE(pmbd.created_at)'), [$startDate, $endDate]);
+
 
     // Query untuk transaksi Mutasi
 $transaksiMutasi = DB::table('stock_barang as a')
@@ -317,6 +359,7 @@ $transaksiMutasi = DB::table('stock_barang as a')
     ->union($transaksiPembuatanBarangDenganOlah)
     ->union($transaksiBahanOlahtoBahanOlah)
     ->union($transaksiPembuatanBahanOlah)
+    ->union($transaksiStockOpnameOlah)
     ->union($transaksiStockOpname)
     ->union($transaksiMutasi)
     ->orderBy('bhnnama')

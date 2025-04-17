@@ -1454,7 +1454,8 @@ class MasterController extends Controller
             'a.bhonama as bhnnama',
             'sat.satnama',
             DB::raw('null as saldoBesar'),
-            DB::raw('null as saldoBar'),
+            'a.bhosaldo as saldoBar',
+            // DB::raw('null as saldoBar'),
             DB::raw('null as saldoKitchen'),
             DB::raw('"olah" as jenis'),
             'a.bhosaldo as saldoOlah'

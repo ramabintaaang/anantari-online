@@ -29,7 +29,6 @@
             var a = new FormData(this);
 
             // Append processed data to the FormData object
-            a.append('bahan', JSON.stringify(processedData));
 
 
             if ($('#bhoid').val() == '') {
@@ -37,7 +36,18 @@
                     icon: "error",
                     title: "bahan olah belum dipilih dengan benar"
                 });
+            } else if ($('#bhokuantiti').val() == '') {
+                Toast.fire({
+                    icon: "error",
+                    title: "jumlah belum diset dengan benar !"
+                });
+            } else if ($('#bhototal').val() == '') {
+                Toast.fire({
+                    icon: "error",
+                    title: "base yg dihasilkan belum diset dengan benar !"
+                });
             } else {
+                a.append('bahan', JSON.stringify(processedData));
                 $.ajax({
                     type: "POST",
                     url: "{{ route('addBahanOlahUsedTrans', ['cabang' => '__cabang__']) }}"
@@ -67,6 +77,12 @@
                             });
                             // $('#tnsdjumlah').val('')
                             // $('.frmtransaksid').val('');
+                            $("#bhonama").val('')
+                            $("#bhoid").val('')
+                            $("#bhokuantiti").val('')
+                            $("#bhototal").val('')
+
+
                             $('.error').html('');
                             $('#dt_bahan_olah').DataTable().ajax.reload();
                             $('#dt_bahan_bar').DataTable().ajax.reload();
@@ -536,6 +552,66 @@
     };
 
 
+    function getRiwayatBahanOlah_bar(bhnid) {
+        var tableHTML = `<table class="table table-hover mb-0" id="dt_riwayatBahan" style="width:100%"></table>`;
+        $('#tableContainerBesar').html(tableHTML);
+        $('#dt_riwayatBahan').DataTable({
+            scrollCollapse: true,
+            paging: true,
+            processing: true,
+            retrieve: true,
+            // destroy: true,
+            // info: false,
+            // serverSide: true,
+            // autoWidth: true,
+            ajax: {
+                url: "{{ route('getRiwayatBahanOlah_bar_persediaan', ['cabang' => '__cabang__']) }}".replace(
+                    '__cabang__', cabang),
+                data: function(d) {
+                    d.bhnid = bhnid;
+                }
+            },
+            columns: [{
+                    data: 'DT_RowIndex',
+                    name: 'DT_RowIndex',
+                    title: 'No',
+                    orderable: false,
+                }, {
+                    data: 'created_at',
+                    name: 'tanggal',
+                    title: 'tanggal',
+
+                },
+                {
+                    data: 'jenis',
+                    name: 'jenis',
+                    title: 'jenis',
+
+                },
+                {
+                    data: 'sbmasuk',
+                    name: 'masuk',
+                    title: 'masuk',
+
+                },
+                {
+                    data: 'sbkeluar',
+                    name: 'keluar',
+                    title: 'keluar',
+
+                },
+                {
+                    data: 'sbadjust',
+                    name: 'adjust',
+                    title: 'adjust',
+
+                },
+
+            ],
+        });
+    };
+
+
 
 
     // --------------------------------------------------------untuk click2 button
@@ -571,7 +647,8 @@
         var satuans = $('#bhosatuans').val()
 
         var total = hasil * jumlah
-        $('#titleHasil').html(total + satuans)
+        $('#titleHasil').html(satuans)
+
         $('#bhototal').val(total)
 
 
@@ -667,6 +744,17 @@
         $('#modalBesar').modal("show")
         $('#titleModalBesar').html("Riwayat barang : " + bhnnama + ", diurutkan dari yang terbaru")
         getRiwayatBahan_bar(id)
+        $('#modalBesar').modal('show');
+    });
+
+    $(document).on('click', '#btn-riwayat-olah', function(e) {
+        e.preventDefault();
+
+        var id = $(this).data('id')
+        var bhnnama = $(this).data('bhnnama')
+        $('#modalBesar').modal("show")
+        $('#titleModalBesar').html("Riwayat barang olah : " + bhnnama + ", diurutkan dari yang terbaru")
+        getRiwayatBahanOlah_bar(id)
         $('#modalBesar').modal('show');
     });
 

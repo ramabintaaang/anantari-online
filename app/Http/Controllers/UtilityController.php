@@ -518,12 +518,6 @@ public function refreshSaldo(Request $request){
         ->where('a.cabang', $this->cabang)
         ->orderBy('a.bhnnama')
         ->get();
-    
-    // $saldoSekarang_olah = DB::table('bahan_olah as a')
-    //     ->select('a.*','a.bhosaldo as jumlahSekarang')
-    //     ->join('satuan as b','a.bhosatuan','=','b.satid')
-    //     ->where('cabang',$this->cabang)
-    //     ->get();  
 
     $saldoSekarang_olah_kitchen = DB::table('bahan_olah AS a')
         ->select(
@@ -653,7 +647,7 @@ public function refreshSaldo(Request $request){
         }
 
         foreach ($saldoSekarang_besar as $data) {
-        $x = DB::table('bahan')
+        DB::table('bahan')
             ->where('bhnid', $data->bhnid)  // Mencocokkan berdasarkan bhnid
             ->update(['bhnsaldo' => $data->jumlahSekarang]);  // Mengupdate kolom bhnsaldo
         }
@@ -680,6 +674,9 @@ public function refreshSaldo(Request $request){
 }
 
 public function refreshSaldoStock() {
+
+    // buat refresh saldo di gudang bar
+
     $gudang = DB::table('gudang')
         ->where('gudangutama', 2)
         ->where('cabang', $this->cabang)
@@ -796,15 +793,9 @@ public function refreshSaldoStock() {
             WHERE a.sbgudang = ?
               AND LEFT(a.sbparent, 3) = 'BHO'
               AND a.created_at BETWEEN '2024-01-01' AND '2030-12-30'
-            
-              
-            
-              
              
             UNION ALL
-
-           
-
+        
             -- Stock Opname transactions
             SELECT
                 a.sbid,
@@ -819,6 +810,28 @@ public function refreshSaldoStock() {
                 'SOP' AS sumber
             FROM stock_barang a
             JOIN bahan b ON b.bhnid = a.sbbahan
+            JOIN stock_opnamed sopd ON sopd.sopdid = a.sbparent 
+            JOIN stock_opname sop ON sop.sopid = sopd.sopdparent
+            WHERE a.sbgudang = ?
+              AND LEFT(a.sbparent, 3) = 'SOP'  
+              AND sop.soptgl BETWEEN '2024-01-01' AND '2030-12-30'
+
+              UNION ALL
+
+              -- Stock Opname transactions OLAH
+            SELECT
+                a.sbid,
+                b.bhonama,
+                CONCAT('Stock Opname Bahan Olah-', sop.sopnama) AS keterangan,
+                a.sbjenis, 
+                a.sbmasuk,
+                a.sbkeluar,
+                a.sbadjust,
+                a.sbsaldo,
+                DATE(sop.created_at) AS tgl,
+                'SOP' AS sumber
+            FROM stock_barang a
+            JOIN bahan_olah b ON b.bhoid = a.sbbahan
             JOIN stock_opnamed sopd ON sopd.sopdid = a.sbparent 
             JOIN stock_opname sop ON sop.sopid = sopd.sopdparent
             WHERE a.sbgudang = ?
@@ -849,13 +862,8 @@ public function refreshSaldoStock() {
               AND mut.mutatgl BETWEEN '2024-01-01' AND '2030-12-30'  
               
 
-        )", [$gudang, $gudang, $gudang, $gudang, $gudang,$gudang,$gudang]);
+        )", [$gudang, $gudang, $gudang, $gudang, $gudang, $gudang, $gudang, $gudang]);
 
-    // Now perform the update using the temporary table
-   
-    
-    
-    
     
     
     DB::statement("

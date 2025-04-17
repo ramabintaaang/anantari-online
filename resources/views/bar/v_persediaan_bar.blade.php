@@ -45,7 +45,7 @@
                                                                         <th>Kode</th>
                                                                         <th>Nama</th>
                                                                         <th>Saldo</th>
-                                                                        
+
                                                                         <th>Action</th>
                                                                     </tr>
                                                                 </thead>
@@ -109,9 +109,24 @@
                                                     <h6>Base yang dihasilkan <span class="text-danger "
                                                             style="margin-left: 5px">*
                                                     </h6>
-                                                    <h1 id="titleHasil"></h1>
+                                                    <div class="col-md-3">
+                                                        <div class="d-flex align-items-center">
+                                                            <input type="number" class="form-control nomor me-2"
+                                                                id="bhototal" name="bhototal" style="width: 100px;">
+                                                            <span class="badge bg-primary" id="titleHasil"></span>
+                                                        </div>
+                                                        <span class="text-danger error bhokuantiti_error"></span>
+                                                    </div>
 
 
+
+
+                                                    {{-- <span>
+                                                        <h1 id="titleHasil">
+                                                            <button type="button" class="btn btn-primary" id="btnGanti"
+                                                                name="btnGanti">Ganti</button>
+                                                        </h1>
+                                                    </span> --}}
                                                 </div>
                                                 <div class="col-sm-6">
                                                     <h6>jumlah<span class="text-danger " style="margin-left: 5px">*
@@ -119,12 +134,11 @@
                                                     <div class="form-group position-relative has-icon-right">
                                                         <input type="number" class="form-control  nomor" id="bhokuantiti"
                                                             name="bhokuantiti">
-                                                        <input type="number" class="form-control  nomor" id="bhototal"
-                                                            name="bhototal" style="display: none">
-                                                        <span class="text-danger error bhokuantiti_error"></span>
+
 
                                                         <input type="text" class="form-control frmtransaksid"
-                                                            id="bhohasil" name="bhohasil" readonly style="display:none;">
+                                                            id="bhohasil" name="bhohasil" readonly
+                                                            style="display:none;">
 
                                                         <span class="text-danger error pmbdjumlah_error"></span>
                                                     </div>

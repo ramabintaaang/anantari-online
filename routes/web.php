@@ -149,7 +149,9 @@ Route::middleware(['auth','checkCabang','checkUserCabang'])->group(function () {
             Route::get('/pembelian_bar', [App\Http\Controllers\TransaksiController::class, 'pembelian_bar'])->name('pembelian_bar');
             Route::get('/getPembelian_bar', [App\Http\Controllers\TransaksiController::class, 'getPembelian_bar'])->name('getPembelian_bar');
             Route::get('/getPembeliand_bar', [App\Http\Controllers\TransaksiController::class, 'getPembeliand_bar'])->name('getPembeliand_bar');
-            Route::get('/getRiwayatBahan_bar_persediaan', [App\Http\Controllers\TransaksiController::class, 'getRiwayatBahan_bar_persediaan'])->name('getRiwayatBahan_bar_persediaan');  
+            Route::get('/getRiwayatBahan_bar_persediaan', [App\Http\Controllers\TransaksiController::class, 'getRiwayatBahan_bar_persediaan'])->name('getRiwayatBahan_bar_persediaan'); 
+            Route::get('/getRiwayatBahanOlah_bar_persediaan', [App\Http\Controllers\TransaksiController::class, 'getRiwayatBahanOlah_bar_persediaan'])->name('getRiwayatBahanOlah_bar_persediaan');  
+ 
 
 
             Route::get('/kasir_bar', [App\Http\Controllers\TransaksiController::class, 'kasir_bar'])->name('kasir_bar');

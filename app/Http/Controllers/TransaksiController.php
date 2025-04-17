@@ -1687,7 +1687,10 @@ public function persediaan_bar(){
                     return $id;
                 })
                 ->addColumn('action', function ($data) {
-                    $act = '<a href="#" title="Riwayat order"><i class="bi bi-clock-history"></i></a>';
+                    $act = '<a href="#" id="btn-riwayat-olah"
+                     title="Riwayat order" 
+                     data-id="'.$data->bhoid.'"
+                    data-bhnnama="'.$data->bhonama.'"><i class="bi bi-clock-history"></i></a>';
                     return $act;
                 })
                 ->rawColumns(['id','action','gudang'])
@@ -2594,6 +2597,42 @@ public function addTransaksiDetailBar(Request $request) {
 
     }
 
+
+    public function getRiwayatBahanOlah_bar_persediaan(Request $request)
+    {
+        $bahan = $request->bhnid;
+        $gudang = DB::table("gudang")
+                ->where("gudangutama",2)
+                ->where("cabang",$this->cabang)
+                ->value("gudangid");
+
+        $data = DB::table("stock_barang as a")
+                ->select("a.*","b.bhonama")
+                ->join("bahan_olah as b","b.bhoid","=","a.sbbahan")
+                ->where("sbcabang",$this->cabang)
+                ->where("sbgudang",$gudang)
+                ->where("sbbahan",$bahan)
+                ->orderBy("a.created_at","DESC")
+                ->get();
+    
+
+         if ($request->ajax()) {
+            return DataTables::of($data)
+                ->addIndexColumn()
+                ->addColumn('jenis', function ($data) {
+                    if($data->sbjenis == 'masuk'){
+                        $txt = '<span class="badge bg-success">Masuk</span>';
+                    } else if($data->sbjenis == 'keluar'){
+                        $txt = '<span class="badge bg-danger">Keluar</span>';
+                    } else {
+                        $txt = '<span class="badge bg-secondary">Adjust</span>';
+                    }
+                    return $txt;
+                })
+                ->rawColumns(['jenis'])
+                ->make(true);       
+        }
+    }
 
     public function getRiwayatBahan_bar_persediaan(Request $request)
     {
