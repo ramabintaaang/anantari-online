@@ -153,13 +153,13 @@
                                     @csrf
                                     <h4>Bahan yang digunakan</h4>
                                     <div class="row col-xs-12" style="margin-bottom: 10px" id="listButtonBahan">
-                                        <button id="btnTambahBahanBarang" class="col-md-2 col-xs-1"
+                                        <button id="btnTambahBahanBarang" class="col-md-2 col-xs-1 btn btn-primary"
                                             title="Tambah/Update Bahan" type="submit"><i
                                                 class="bi bi-plus-circle"></i></button>
-                                        <button id="" class="col-md-2 col-xs-1" title="Hapus Bahan"><i
+                                        {{-- <button id="" class="col-md-2 col-xs-1" title="Hapus Bahan"><i
                                                 class="bi bi-trash"></i></button>
                                         <button id="btnResetFormBahan" class="col-md-2 col-xs-1" title="Reset form"
-                                            type="button"><i class="bi bi-bootstrap-reboot"></i></button>
+                                            type="button"><i class="bi bi-bootstrap-reboot"></i></button> --}}
 
                                     </div>
                                     <div class="row">
@@ -356,7 +356,7 @@
                         name: 'nama'
                     },
                     {
-                        data: 'bhnsatuan',
+                        data: 'satnama',
                         name: 'satuan'
                     },
                     {
@@ -715,7 +715,7 @@
 
                             Toast.fire({
                                 icon: "error",
-                                title: res.pesan
+                                title: "gagal menambah, cek lagi"
                             });
 
                         } else {

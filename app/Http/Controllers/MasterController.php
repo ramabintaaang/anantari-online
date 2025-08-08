@@ -7,13 +7,16 @@ use App\Models\User;
 use App\Models\Bahan;
 use App\Models\Barang;
 use App\Models\Cabang;
+use App\Models\Mutasid;
 use App\Models\BahanBar;
 use App\Models\Supplier;
 use App\Models\BahanOlah;
+use App\Models\Pembeliand;
+use App\Models\UserAccess;
 use App\Models\BarangBahan;
 use App\Models\StockBarang;
 use App\Models\BahanKitchen;
-use App\Models\UserAccess;
+use App\Models\TransaksidBahan;
 use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\DB;
@@ -984,6 +987,75 @@ class MasterController extends Controller
             if ($data) {
                 return response()->json(['pesan'=>'Data BAHAN berhasil update'],200);
             }
+        }
+    }
+
+
+    public function deleteBahan(Request $request)
+    {
+        try {
+            // Memulai transaksi
+            DB::beginTransaction();
+
+            $data = Bahan::where('bhnid', $request->bhnid)->first();
+            $data2 = BahanBar::where('bhnid', $request->bhnid)->first();
+            $data3 = BahanKitchen::where('bhnid', $request->bhnid)->first();
+
+
+
+            if (!$data) {
+                return response()->json([
+                    'status' => 404,
+                    'pesan' => 'Data bahan tidak ditemukan.'
+                ]);
+            }
+
+            $simpan = $data->delete();
+            $data2->delete();
+            $data3->delete();
+
+            if (!$simpan) {
+                throw new \Exception('Gagal menghapus data bahan asli.');
+            }
+
+            // Hapus bahan terkait di menu/barang
+            $bahanBarang = BarangBahan::where('bhnid', $request->bhnid);
+
+            // Hapus bahan di pembeliand
+            $bahanPembeliand = Pembeliand::where('pmbdbrg', $request->bhnid);
+            // Hapus bahan di mutasi
+            $bahanMutasid = Mutasid::where('mutdbahan', $request->bhnid);
+            // Hapus bahan di transaksi bahan
+            $bahanTransakiBahan = TransaksidBahan::where('tnsbbahan', $request->bhnid);
+
+        // Jika data bahan terkait ditemukan, hapus
+            if ($bahanBarang->exists()) {
+                $simpan2 = $bahanBarang->delete();  // Hapus data bahan terkait
+                $bahanPembeliand->delete();
+                $bahanMutasid->delete();
+                $bahanTransakiBahan->delete();
+
+                if (!$simpan2) {
+                    throw new \Exception('Gagal menghapus data bahan terkait.');
+                }
+            }
+
+            // Commit jika semua berhasil
+            DB::commit();
+
+            return response()->json([
+                'status' => 200,
+                'pesan' => 'Berhasil hapus data'
+            ]);
+
+        } catch (\Exception $e) {
+            // Rollback jika ada kesalahan
+            DB::rollBack();
+
+            return response()->json([
+                'status' => 500,
+                'pesan' => 'Gagal hapus data: ' . $e->getMessage()
+            ]);
         }
     }
 

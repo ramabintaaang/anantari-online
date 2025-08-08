@@ -113,6 +113,7 @@ Route::middleware(['auth','checkCabang','checkUserCabang'])->group(function () {
 
         //METHOD DELETE
         Route::post('/deleteBarang', [App\Http\Controllers\MasterController::class, 'deleteBarang'])->name('deleteBarang');
+        Route::post('/deleteBahan', [App\Http\Controllers\MasterController::class, 'deleteBahan'])->name('deleteBahan');
         Route::post('/deleteBarangBahan', [App\Http\Controllers\MasterController::class, 'deleteBarangBahan'])->name('deleteBarangBahan');
         Route::post('/deleteBahanOlah', [App\Http\Controllers\MasterController::class, 'deleteBahanOlah'])->name('deleteBahanOlah');
 
