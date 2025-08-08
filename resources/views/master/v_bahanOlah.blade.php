@@ -119,7 +119,7 @@
                                             <button type="button" class="btn btn-danger me-1 mb-1"
                                                 id="btnHapus">Hapus</button>
                                             <button type="reset" class="btn btn-light-secondary me-1 mb-1"
-                                                id="btnResetbahan">Reset</button>
+                                                id="btnResetbahan">Reset / buat bahan olah baru</button>
                                         </div>
                                 </form>
 
@@ -128,13 +128,13 @@
                                     @csrf
                                     <h4>Bahan yang digunakan</h4>
                                     <div class="row col-xs-12" style="margin-bottom: 10px" id="listButtonBahan">
-                                        <button id="btnTambahBahanbahan" class="col-md-2 col-xs-1"
+                                        <button id="btnTambahBahanbahan" class="btn btn-primary col-md-2 col-xs-1"
                                             title="Tambah/Update Bahan" type="submit"><i
                                                 class="bi bi-plus-circle"></i></button>
-                                        <button id="" class="col-md-2 col-xs-1" title="Hapus Bahan"><i
+                                        {{-- <button id="" class="col-md-2 col-xs-1" title="Hapus Bahan"><i
                                                 class="bi bi-trash"></i></button>
                                         <button id="btnResetFormBahan" class="col-md-2 col-xs-1" title="Reset form"
-                                            type="button"><i class="bi bi-bootstrap-reboot"></i></button>
+                                            type="button"><i class="bi bi-bootstrap-reboot"></i></button> --}}
 
                                     </div>
                                     <div class="row">
@@ -577,11 +577,18 @@
                             $.each(res.error, function(prefix, val) {
                                 $('span.' + prefix + '_error').text(val[0]);
                             });
+
+                            Toast.fire({
+                                icon: "error",
+                                title: res.pesan
+                            });
                         } else {
                             Toast.fire({
                                 icon: "success",
                                 title: "Berhasil Menambah Bahan"
                             });
+                            $('#bhnid').val('')
+                            $('#bhannama').val('')
                             // getBahanBarang($('#ipt_brgid'))
                             $('#dt_bahan_used').DataTable().ajax.reload();
 
@@ -617,6 +624,7 @@
 
                 getBahanOlahUsed(table.row(this).data().bhoid)
 
+                $('#titleDetail').css("display", "")
                 $('#titleDetail').html(table.row(this).data().bhonama)
                 $('.error').html('')
 
@@ -711,10 +719,17 @@
         });
 
         $('#iconSearchBahan').click(function(e) {
-            getAllBahan()
-            klikTabelBarangBahan()
-            $('#modalBahanBarang').modal("show")
-            $('#titleModal').html("Bahan untuk " + $("#bhonama").val())
+            if ($('#bhoid').val() == '') {
+                Toast.fire({
+                    icon: "error",
+                    title: "Pilih bahan olah dahulu !"
+                });
+            } else {
+                getAllBahan()
+                klikTabelBarangBahan()
+                $('#modalBahanBarang').modal("show")
+                $('#titleModal').html("Bahan untuk " + $("#bhonama").val())
+            }
         });
 
         $(document).on('click', '.barangbahan_delete', function() {
@@ -741,7 +756,11 @@
 
         $('#btnResetbahan').click(function(e) {
             crud = 'c';
+            // $('#bhoid').val()
+            $('#titleDetail').css("display", "none")
             $('#btnHapus').css("display", "none")
+            $('#dt_bahan_used').DataTable().ajax.reload();
+
 
         });
     </script>

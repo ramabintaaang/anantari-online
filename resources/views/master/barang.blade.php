@@ -26,7 +26,7 @@
                                 <form class="form" id="formBarang">
                                     @csrf
                                     <div class="row">
-                                        <h4>Detail Barang : <span id="titleDetail" class="badge bg-success"></span>
+                                        <h4>Detail Menu : <span id="titleDetail" class="badge bg-success"></span>
                                         </h4>
 
                                         <div class="col-md-6 col-12">
@@ -224,7 +224,7 @@
                 <div class="card">
                     <div class="card-header">
                         <div class="card-title">
-                            <h4>List Barang</h4>
+                            <h4>List Menu</h4>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
@@ -870,10 +870,17 @@
         });
 
         $('#iconSearchBahan').click(function(e) {
-            getAllBahan()
-            klikTabelBarangBahan()
-            $('#modalBahanBarang').modal("show")
-            $('#titleModal').html("Bahan untuk " + $("#ipt_brgnama").val())
+            if ($('#ipt_brgid').val() == '') {
+                Toast.fire({
+                    icon: "error",
+                    title: "Pilih barang / menu dahulu !"
+                });
+            } else {
+                getAllBahan()
+                klikTabelBarangBahan()
+                $('#modalBahanBarang').modal("show")
+                $('#titleModal').html("Bahan untuk " + $("#ipt_brgnama").val())
+            }
         });
 
         $('#btnTambahVarian').click(function(e) {

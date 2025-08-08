@@ -30,7 +30,7 @@
                             <li class="submenu-item menu-item {{ request()->is('master/barang') ? 'active' : '' }} ">
                                 <a href="{{ route('barang', ['cabang' => $currentCabang]) }}"
                                     class='submenu-link'>Master
-                                    Barang</a>
+                                    Barang / Menu</a>
                             </li>
                             <li class="submenu-item  {{ request()->is('master/bahan') ? 'active' : '' }}">
                                 <a href="{{ route('bahan', ['cabang' => $currentCabang]) }}" class='submenu-link'>Master
@@ -39,7 +39,7 @@
                             <li class="submenu-item  {{ request()->is('master/bahanOlah') ? 'active' : '' }}">
                                 <a href="{{ route('bahanOlah', ['cabang' => $currentCabang]) }}"
                                     class='submenu-link'>Master
-                                    Barang Olah</a>
+                                    Barang Olah / Menu yang diolah</a>
                             </li>
                             <li class="submenu-item  {{ request()->is('master/supplier') ? 'active' : '' }}">
                                 <a href="{{ route('supplier', ['cabang' => $currentCabang]) }}"
@@ -129,7 +129,7 @@
 
 
 
-        @if (Auth::user()->divisi == 'kasir' || Auth::user()->divisi == 'admin'|| Auth::user()->divisi == 'bar')
+        @if (Auth::user()->divisi == 'kasir' || Auth::user()->divisi == 'admin' || Auth::user()->divisi == 'bar')
             <li class="menu-item  has-sub {{ request()->is('transaksi/*') ? 'active' : '' }}">
                 <a href="#" class='menu-link'>
                     <span><i class="bi bi-cash"></i> Kasir</span>

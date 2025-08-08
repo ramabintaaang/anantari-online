@@ -614,77 +614,81 @@
 
         $('#btnDeleteBahan').click(function(e) {
             e.preventDefault();
-
             var form = $("#formbahan")[0]; // Mengacu pada elemen form HTML
             var a = new FormData(form);
 
-
-            Swal.fire({
-                title: "Yakin menghapus bahan ?",
-                text: "semua yang berkaitan dengan bahan ini akan dihapus !",
-                icon: "warning",
-                showCancelButton: true,
-                confirmButtonColor: "#3085d6",
-                cancelButtonColor: "#d33",
-                confirmButtonText: "Yeaah, hapus saja!"
-            }).then((result) => {
-                if (result.isConfirmed) {
-                    if ($('#bhnid').val() == '') {
-                        Toast.fire({
-                            icon: "error",
-                            title: "Tentukan bahan yang akan dihapus !"
-                        });
-                    }
-                    $.ajax({
-                        headers: {
-                            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                        },
-                        type: "POST",
-                        url: "{{ route('deleteBahan', ['cabang' => '__cabang__']) }}".replace(
-                            '__cabang__', cabang),
-                        data: a,
-                        processData: false,
-                        dataType: "json",
-                        contentType: false,
-                        beforeSend: function() {
-                            $(document).find('span.error').text('');
-                        },
-                        success: function(res) {
-                            if (res.status == 500) {
-                                Toast.fire({
-                                    icon: "error",
-                                    title: "gagal menghapus bahan"
-                                });
-                            } else if (res.status == 404) {
-                                Toast.fire({
-                                    icon: "error",
-                                    title: res.pesan
-                                });
-                            } else {
-                                Toast.fire({
-                                    icon: "success",
-                                    title: "Berhasil menghapus bahan"
-                                });
-
-                                // getBahanBarang($('#ipt_brgid'))
-                                $('#dt_AllBahan').DataTable().ajax.reload();
-                                $('#bhnid').val('')
-
-                            }
-                        },
-                        error: function(xhr) {
+            if ($('#bhnid').val() == '') {
+                Toast.fire({
+                    icon: "error",
+                    title: "Pilih menu dahulu !"
+                });
+            } else {
+                Swal.fire({
+                    title: "Yakin menghapus bahan ?",
+                    text: "semua yang berkaitan dengan bahan ini akan dihapus !",
+                    icon: "warning",
+                    showCancelButton: true,
+                    confirmButtonColor: "#3085d6",
+                    cancelButtonColor: "#d33",
+                    confirmButtonText: "Yeaah, hapus saja!"
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        if ($('#bhnid').val() == '') {
                             Toast.fire({
                                 icon: "error",
-                                title: "gagal menghapus Bahan"
+                                title: "Tentukan bahan yang akan dihapus !"
                             });
-
                         }
-                    });
-                }
+                        $.ajax({
+                            headers: {
+                                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                            },
+                            type: "POST",
+                            url: "{{ route('deleteBahan', ['cabang' => '__cabang__']) }}".replace(
+                                '__cabang__', cabang),
+                            data: a,
+                            processData: false,
+                            dataType: "json",
+                            contentType: false,
+                            beforeSend: function() {
+                                $(document).find('span.error').text('');
+                            },
+                            success: function(res) {
+                                if (res.status == 500) {
+                                    Toast.fire({
+                                        icon: "error",
+                                        title: "gagal menghapus bahan"
+                                    });
+                                } else if (res.status == 404) {
+                                    Toast.fire({
+                                        icon: "error",
+                                        title: res.pesan
+                                    });
+                                } else {
+                                    Toast.fire({
+                                        icon: "success",
+                                        title: "Berhasil menghapus bahan"
+                                    });
+
+                                    // getBahanBarang($('#ipt_brgid'))
+                                    $('#dt_AllBahan').DataTable().ajax.reload();
+                                    $('#bhnid').val('')
+
+                                }
+                            },
+                            error: function(xhr) {
+                                Toast.fire({
+                                    icon: "error",
+                                    title: "gagal menghapus Bahan"
+                                });
+
+                            }
+                        });
+                    }
 
 
-            });
-
+                });
+            }
 
         });
     </script>

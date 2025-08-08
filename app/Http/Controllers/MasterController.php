@@ -1468,6 +1468,15 @@ class MasterController extends Controller
 
 
 
+        // Cek apakah bahan sudah ada di database berdasarkan bhnid
+        $cek = DB::table('barang_bahan')
+        ->where('bhnid', $request->bhnid)
+        ->where('bhanbarang', $request->bhanbahan)
+        ->exists();
+
+        if ($cek) {
+            return response()->json(['status' => 500, 'pesan' => 'Bahan sudah ada di list']);
+        }
 
 
         $validator = Validator::make($request->all(),[
@@ -1482,6 +1491,7 @@ class MasterController extends Controller
         if($validator->fails()){
             return response()->json(['status'=>500,'error'=>$validator->errors()->toArray()]);
         } else {
+            
             $data = BarangBahan::create([
                 'bhanid' => $generateId,
                 'bhannama' => $request->bhannama,
