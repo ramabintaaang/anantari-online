@@ -72,10 +72,11 @@
                                 <form class="form" id="formInputTransaksi">
                                     @csrf
                                     <div class="row col-xs-12" style="margin-bottom: 10px" id="listButtonTransaksi">
-                                        <button id="btnTambahTransaksid" class="col-md-2 col-xs-1" title="Tambah/Update"
-                                            type="submit"><i class="bi bi-plus-circle"></i></button>
-                                        <button id="btnResetTransaksi" class="col-md-2 col-xs-1" title="Reset form"
-                                            type="button"><i class="bi bi-bootstrap-reboot"></i></button>
+                                        <button id="btnTambahTransaksid" class="btn btn-primary col-md-2 col-xs-1"
+                                            title="Tambah/Update" type="submit"><i class="bi bi-plus-circle"></i></button>
+                                        <button id="btnResetTransaksi" class="btn btn-secondary col-md-2 col-xs-1"
+                                            title="Reset form" type="button" style="margin-left: 10px"><i
+                                                class="bi bi-bootstrap-reboot"></i></button>
 
                                     </div>
                                     <div class="row">
@@ -174,14 +175,14 @@
                                                                 id="tnsdbarang" name="tnsdbarang" readonly
                                                                 style="display: none">
                                                             <input type="text" class="form-control frmtransaksid"
-                                                                placeholder="Klik icon untuk cari barang" id="tnsdbarangn"
-                                                                name="tnsdbarangn" readonly>
+                                                                placeholder="Klik produk dari list barang / produk"
+                                                                id="tnsdbarangn" name="tnsdbarangn" readonly>
 
                                                             </span>
                                                             <span class="text-danger error tnsdbarang_error"></span>
-                                                            <div class="form-control-icon">
+                                                            {{-- <div class="form-control-icon">
                                                                 <i class="bi bi-search" id="iconSearchBarang"></i>
-                                                            </div>
+                                                            </div> --}}
                                                         </div>
                                                     </div>
                                                     <div class="col-sm-3">

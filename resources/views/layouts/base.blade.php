@@ -19,7 +19,7 @@
 
 
 
-        <link rel="stylesheet" crossorigin
+    <link rel="stylesheet" crossorigin
         href="{{ asset('mazer/assets/extensions/datatables.net-bs5/css/dataTables.bootstrap5.min.css') }}">
     <link rel="stylesheet" crossorigin href="{{ asset('mazer/assets/compiled/css/table-datatable-jquery.css') }}">
     <link rel="stylesheet" crossorigin href="{{ asset('mazer/assets/compiled/css/app.css') }}">
@@ -77,6 +77,7 @@
                         </div>
 
                         <div class="header-top-right">
+                            <small>periode</small>
                             <div class="form-check form-switch fs-6">
                                 <input class="form-check-input  me-0" type="checkbox" id="btnBypassBahan"
                                     style="cursor: pointer">
@@ -143,7 +144,7 @@
                         </div>
                         <div class="float-end">
                             <p>Crafted with <span class="text-danger"><i class="bi bi-heart"></i></span> by <a
-                                    href="https://saugi.me">Saugi</a></p>
+                                    href="https://rbtgtech.my.id">RBTGTECH</a></p>
                         </div>
                     </div>
                 </div>
@@ -158,8 +159,8 @@
 
     <!--{{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> --}}-->
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-    
-    
+
+
     <script src="{{ asset('mazer/assets/extensions/jquery/jquery.min.js') }}"></script>
     <script src="{{ asset('mazer/assets/extensions/datatables.net/js/jquery.dataTables.min.js') }}"></script>
     <script src="{{ asset('mazer/assets/extensions/datatables.net-bs5/js/dataTables.bootstrap5.min.js') }}"></script>
